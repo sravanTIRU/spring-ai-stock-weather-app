@@ -21,7 +21,7 @@ function StatusBar() {
           <div className="flex items-center gap-2">
             <Brain size={16} className="text-purple-500" />
             <span className="font-medium">AI Service</span>
-            <span className="text-yellow-600">● Demo Mode</span>
+            <span className="text-yellow-600">● Ollama_phi3_local_model</span>
           </div>
         </div>
 
@@ -32,7 +32,7 @@ function StatusBar() {
           </span>
 
           <a
-            href="https://github.com/YOUR_USERNAME/YOUR_REPO"
+            href="https://github.com/sravanTIRU/spring-ai-stock-weather-app.git"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-1 px-3 py-1 border rounded-md text-gray-700 hover:bg-black hover:text-white transition"

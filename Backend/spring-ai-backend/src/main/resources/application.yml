@@ -1,11 +1,12 @@
 spring:
   ai:
-    openai:
-      api-key: ${OPENAI_API_KEY}
+    ollama:
+      base-url: http://localhost:11434
       chat:
         options:
-          model: gpt-4o-mini
+          model: phi3
           temperature: 0.2
+
 stock:
   api:
     key: ${ALPHAVANTAGE_API_KEY}
